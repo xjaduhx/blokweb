@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Jade van der Peet
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  Blauw
+  hier je startniveau (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  Ik ga mij focussen op responsive design.
+  hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -65,7 +65,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Muis en Toetsenbord 
-  Er kwamen bij sommige kleurveranderingen best interessante bevindingen naar voren toe.
+   Er kwamen bij sommige kleurveranderingen best interessante bevindingen naar voren toe.
   
   - Wazig:
     Licht blauw/groen op wit is slecht zichtbaar;
@@ -75,6 +75,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     De Footer is niet te lezen, plaatjes wel daarin wel;
     Navigatie is ook niet te lezen;
     Plaatjes zijn goed te zien
+
+    Hier komt dus uit dat de grootste storingsfactor de kleine lettertjes zijn, samen met de iconen. Hierdoor zijn de footer, subkopjes en teksten, navigatie en kleurverschillen erg slecht tot niet te lezen.
 
 
   #### Motoriek (shocks, elastiekjes)
