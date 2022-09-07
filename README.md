@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Jade van der Peet
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Ik ga mij focussen op responsive design.
  
 </details>
 
@@ -65,9 +65,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Er kwamen bij sommige kleurveranderingen best interessante bevindingen naar voren toe.
+  
+  - Wazig:
+    Licht blauw/groen op wit is slecht zichtbaar;
+    Iconen zijn super klein;
+    Alles wat niet een kader staat (kleine letters) niet leesbaar; 
+    Te kleine letters (ook zwart;)
+    De Footer is niet te lezen, plaatjes wel daarin wel;
+    Navigatie is ook niet te lezen;
+    Plaatjes zijn goed te zien
 
 
   #### Motoriek (shocks, elastiekjes)
