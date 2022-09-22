@@ -40,7 +40,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home pagina Albelli
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
@@ -161,10 +160,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Daphne      | Jade          | student 3    | student 4        |
+  | Daphne      | Jade          | Leanne    | Betoel        |
   | ---            | ---                | ---          | ---              |
-  | Stukje tekst omdraaien voor volgorde  | Ruimte om a's in navigatie             | en ik dit    | en dan ik dat    |
-  | Plaatje schaling bepalen | Navigatie verdwijnt met scrollen | nog een punt | dit wil ik zeker |
+  | Stukje tekst omdraaien voor volgorde  | Ruimte om a's in navigatie             | Navigatie werkend maken    | Navigatie werkend maken    |
+  | Plaatje schaling bepalen | Navigatie verdwijnt met scrollen | Section aanspraken | dit wil ik zeker |
   | Tekstblok werkt niet responsive (en verplaatsen)           | Twee links onder elkaar krijgen                | ...          | ...              |
   | Tekstblok werkt niet responsive (en verplaatsen)           | Letters schalen niet mee en blijven niet op 1 plek (20% korting)                | ...          | ...              |
 
