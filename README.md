@@ -55,13 +55,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 1e werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Het gebruik van een screenreader is veel moeilijker dan ik had verwacht. Je krijgt een variatie van buttons die je nog nooit gebruikt hebt en de persoon die het voorleest, leest ook daadwerkelijk alles voor, ook al is het niet van toepassing op wat je wilt horen. Het is ook duidelijk geworden dat heel veel sites onwijs achterlopen op deze technologie. Hier kan nog erg veel aan gedaan worden.
 
 
   #### Muis en Toetsenbord 
@@ -78,17 +73,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
     Hier komt dus uit dat de grootste storingsfactor de kleine lettertjes zijn, samen met de iconen. Hierdoor zijn de footer, subkopjes en teksten, navigatie en kleurverschillen erg slecht tot niet te lezen.
 
+    - Groen en geel:
+    Hier kwam niet heel veel bijzonders uit. Het contrast was ondanks dezelfde kleuren wel heel duidelijk te zien. Er is natuurlijk een duidelijk verschil tussen licht geel en donker geel.
+
+    - Roze:
+    Hiermee werden de plaatjes en kopteksten ongelooflijk duidelijk. Alles viel opeens heel erg op en het zag er ook eigenlijk mooi uit. Dit heeft verder totaal geem belemmering geven voor mij om door de website te kunnen komen.
+
+    - Zwart/wit:
+    De kleine letters op de website zijn nu lihct grijs geworden, hierdoor zijn ze nog slechter leesbaar dan dat ze al waren. Verder heeft het geen effect op plaatjes of grote kopteksten. Alles wat klein was en nu ook nog eens lichter is geworden, is niet te zien.
+
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+    Ik vond het onwijs moeilijk om goed gebruik te kunnen maken van een laptop/computer als je zo belemmerd word. Dit was voor mij tijdelijk, maar voor mensen die dit daadwerkelijk hebben lijkt het me nog veel lastiger in het dageijks leven. De shocks leiden heel erg af en ik was veel minder bezig met stappen zetten op de website. Ik typ zelf niet met 10 vingers, maar gebruik wel bepaalde vingers en precies deze waren zo vastgebonden. Onwijs moeilijk, niet alleen op mijn site maar in het gebruik van een computer in het algemeen.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+    Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+    Ik kijk altijd naar mijn scherm en toetsenbord, ook als ik aan het typen ben. Dit was een onwijs groot ding toen ik die brillen ophad. Je ziet echt niet goed en je ziet ook niet waar je op gaat klikken. Dit waa vooral bij het gebruik van de tunnelvisie en contrast brillen. Van kleurenblind had ik niet zoveel last.
 
 </details>
 
