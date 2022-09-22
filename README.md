@@ -161,11 +161,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Daphne      | Jade          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | Stukje tekst omdraaien  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Stukje tekst omdraaien voor volgorde  | Ruimte om a's in navigatie             | en ik dit    | en dan ik dat    |
+  | Plaatje schaling bepalen | Navigatie verdwijnt met scrollen | nog een punt | dit wil ik zeker |
+  | Tekstblok werkt niet responsive (en verplaatsen)           | Twee links onder elkaar krijgen                | ...          | ...              |
+  | Tekstblok werkt niet responsive (en verplaatsen)           | Letters schalen niet mee en blijven niet op 1 plek (20% korting)                | ...          | ...              |
 
 
   ### Verslag van meeting
