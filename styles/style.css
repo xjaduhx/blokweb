@@ -20,6 +20,8 @@ button, summary {
 	/* startje */
 	--color-text:#111;
 	--color-background:white;
+	--colorbuttons: #39BDC4;
+
 }
 
 
@@ -31,6 +33,14 @@ button, summary {
 /****************/
 
 /* jouw code */
+
+
+
+
+
+
+
+
 
 body {
   color:var(--color-text);
@@ -46,6 +56,9 @@ header{
 	height: 3em;
 	display: flex;
 	align-items: center;
+	position: sticky;
+	top:0;
+	z-index: 200;
 }
 
 header nav {
@@ -77,12 +90,14 @@ header button {
 	margin-left: 1em;
 	padding: 0.3em;
 	position: relative;
-	z-index:100;
+	z-index:200;
 }
 
 header nav a{
 	text-decoration:none;
 	color: black;
+	display: block;
+	padding: 1em;
 }
 
 
@@ -90,87 +105,77 @@ header nav a{
 
 
 
-section:first-child img {
-	width: 100%;
-}
+
+
+
 
 section:first-child {
 	text-align: center;
+	display: grid;
+	justify-items: center;
+}
+
+section:first-child p {
+	margin-bottom: 2.3em;
+	font-family: 'Sarabun', sans-serif;
+}
+
+section:first-child img {
+	width: 100%;
+	order: -1;
 }
 
 section:first-child a {
 	text-decoration: none;
 	color: white;
-	background-color: #39BDC4;
+	background-color: var(	--colorbuttons);
 	padding: 0.6em 1.5em 0.6em 1.5em;
 	border-radius: 1.5em;
 }
 
-section:first-child p {
-	margin-bottom: 2.3em;
-	font-family: var(--lettertypemain);
-}
 
 
 
 
 
 
-section:nth-child(2) {
+
+
+
+
+/*
+ul:nth-of-type(1) li {
 	display: flex;
 	align-items: center;
-	margin-top: 2.2em;
+	margin-top: 1em;
 }
 
-section:nth-child(2) img {
+ul:nth-of-type(1) li img {
 	width: 2.5em;
 	margin-left: 1.3em;
 	margin-right: 1em;
 }
 
-section:nth-child(2) h2 {
+ul:nth-of-type(1) li h2 {
 	font-size: 1.4em;
 }
 
+*/
 
-
-
-
-
-
-section:nth-child(3) {
+ul:nth-of-type(1) li {
 	display: flex;
+	flex-direction: row-reverse;
+	justify-content: start;
 	align-items: center;
+	gap:1em;
+
 }
 
-section:nth-child(3) img {
-	width: 3em;
-	margin-left: 1.3em;
-	margin-right: 0.5em;
-}
-
-section:nth-child(3) h2 {
-	font-size: 1.4em;
-}
-
-
-
-
-
-
-
-section:nth-child(4) {
-	display: flex;
-	align-items: center;
-}
-
-section:nth-child(4) img {
+ul:nth-of-type(1) li img {
 	width: 2.5em;
-	margin-left: 1.3em;
-	margin-right: 1em;
 }
 
-section:nth-child(4) h2 {
+ul:nth-of-type(1) li h2 {
 	font-size: 1.4em;
 }
 
@@ -183,40 +188,71 @@ section:nth-child(4) h2 {
 
 
 
-section:nth-child(5) {
-	text-align: right;
+
+
+
+
+/* Regel 290 t/m 339 Sanne 't Hooft mij mee geholpen */
+ul:nth-of-type(2) {
+	padding: 0;
+}
+
+ul:nth-of-type(2) li {
 	position: relative;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 3fr 2fr min-content;
 }
 
-section:nth-child(5) img {
-	width: 100%;
+ul:nth-of-type(2) li:first-child {
+	margin-bottom: .8em;
 }
 
-section:nth-child(5) h2 {
-	font-size: 500%;
-	position: absolute;
-	top:10%; 
+ul:nth-of-type(2) li:nth-child(2) {
+	margin-bottom: 1.2em;
 }
 
-section:nth-child(5) h2, h3 {
-	margin-right: 0.9em;
-}
-
-section:nth-child(5) h3 {
-	position: absolute;
-	top: 40%;
+ul:nth-of-type(2) li h2 {
 	white-space: pre-line;
 	text-align: center;
-	font-size: 2em;
+	font-size: 150%;
+	grid-row-start: 2;
+	grid-column-start: 2;
+	z-index: 100;
+	margin: 0;
+	justify-self: center;
+	align-self: start;
 }
 
-section:nth-child(5) a {
-	position: absolute;
-	right: 1em;
-	bottom: 1em;
+ul:nth-of-type(2) li h3 {
+	font-size: 300%;
+	grid-row-start: 1;
+	grid-column-start: 2;
+	z-index: 100;
+	margin: 0;
+	justify-self: center;
+	align-self: end;
+}
+
+ul:nth-of-type(2) li img {
+	width: 100%;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	display: block;
+}
+
+ul:nth-of-type(2) li a {
 	text-decoration: none;
 	color: black;
 	font-weight: 600;
+	grid-row-start: 3;
+	grid-column-start: 2;
+	justify-self: end;
+	margin-right: 1em;
+	margin-bottom: .5em;
 }
 
 
@@ -225,70 +261,114 @@ section:nth-child(5) a {
 
 
 
-section:nth-child(6) {
-	text-align: right;
-	position: relative;
-}
 
-section:nth-child(6) img {
+
+
+section:nth-of-type(2) img {
 	width: 100%;
 }
 
-section:nth-child(6) h2 {
-	font-size: 500%;
-	position: absolute;
-	top:10%; 
+section:nth-of-type(2) h2 {
+	order: 1;
 }
 
-section:nth-child(6) h2, h3 {
-	margin-right: 0.9em;
-}
-
-section:nth-child(6) h3 {
-	position: absolute;
-	top: 40%;
-	white-space: pre-line;
+section:nth-of-type(2) {
 	text-align: center;
-	font-size: 2em;
+	display: grid;
+	justify-items: center;
 }
 
-section:nth-child(6) a {
-	position: absolute;
-	right: 1em;
-	bottom: 1em;
-	text-decoration: none;
-	color: black;
-	font-weight: 600;
-}
-
-
-
-
-
-section:nth-of-type(7) img {
-	width: 100%;
-}
-
-section:nth-of-type(7) {
-	text-align: center;
-}
-
-section:nth-of-type(7) :nth-child(3) {
+section:nth-of-type(2) a:nth-of-type(1) {
 	text-decoration: none;
 	color: white;
-	background-color: #39BDC4;
+	background-color: var(	--colorbuttons);
 	padding: 0.6em 1.5em 0.6em 1.5em;
 	border-radius: 1.5em;
 	font-weight: 600;
+	order: 1;
 }
 
-
-section:nth-of-type(7) :nth-child(4) {
+section:nth-of-type(2) a:nth-of-type(2) {
 	text-decoration: none;
 	color: black;
 	font-weight: 600;
-	border-bottom:.2em solid #39BDC4
+	border-bottom:.2em solid #39BDC4;
+	order: 1;
+}
 
+
+
+
+
+
+
+
+
+
+
+ul:nth-of-type(3) {
+	position: relative;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 0;
+	gap: 1em;
+}
+
+ul:nth-of-type(3) li:nth-of-type(1) {
+	display: grid;
+}
+
+ul:nth-of-type(3) li:nth-of-type(1) h2 {
+	font-size: 1.3em;
+	margin-top: .5em;
+	margin-left: .3em;
+}
+
+ul:nth-of-type(3) li:nth-of-type(1) h3 {
+	font-size: 1.3em;
+	margin-left: .3em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+ul:nth-of-type(3) li:nth-of-type(1) p {
+	font-size: 1.3em;
+	margin-left: .3em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 300;
+	
+}
+
+ul:nth-of-type(3) li:nth-of-type(1) img {
+	width: 100%;
+	order: -1;
+}
+
+
+
+
+
+ul:nth-of-type(3) li:nth-of-type(2) img {
+	width: 100%
+}
+
+ul:nth-of-type(3) li:nth-of-type(3) img {
+	width: 100%;
+}
+
+ul:nth-of-type(3) li:nth-of-type(4) img {
+	width: 100%
+}
+
+ul:nth-of-type(3) li:nth-of-type(5) img {
+	width: 100%;
+}
+
+ul:nth-of-type(3) li:nth-of-type(6) img {
+	width: 100%
 }
 
 
