@@ -225,16 +225,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik vind het heel erg last
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Kyara      | Jade          | Silke    | Suneyska        |
+  | Hoe je een button met een afbeelding erin klikbaar maakt            | Items naast elkaar krijgen (grid van 6 afbeeldingen en beoordelingen)                | ...        | ...            |
+  | Hoe je p's toevoegt aan een grid  | Footer doet raar, hoe kan ik deze het beste maken?  | ...    | ...   |
+  | ... | ...| ... | ... |
   | ...            | ...                | ...          | ...              |
 
 
