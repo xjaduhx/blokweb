@@ -82,7 +82,6 @@
   #### Motoriek (shocks, elastiekjes)
     Ik vond het onwijs moeilijk om goed gebruik te kunnen maken van een laptop/computer als je zo belemmerd word. Dit was voor mij tijdelijk, maar voor mensen die dit daadwerkelijk hebben lijkt het me nog veel lastiger in het dageijks leven. De shocks leiden heel erg af en ik was veel minder bezig met stappen zetten op de website. Ik typ zelf niet met 10 vingers, maar gebruik wel bepaalde vingers en precies deze waren zo vastgebonden. Onwijs moeilijk, niet alleen op mijn site maar in het gebruik van een computer in het algemeen.
 
-    Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
@@ -98,13 +97,7 @@
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdown.jpg" width="375px" alt="breakdown van de hele pagina">
 
 </details>
 
