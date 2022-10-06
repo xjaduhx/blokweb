@@ -105,6 +105,13 @@
 	  padding: 1em;
   }
   
+  header nav a:hover{
+	color: var(--colorbuttonsactive);
+  }
+
+  header nav a:active{
+	color: var(--colorbuttonsactive);
+  }
   
   
   
@@ -116,7 +123,7 @@
 	  padding: 1em;
   }
   
-  header section img:nth-child(2){
+  header section a img{
 	  width: 5em;
 	  display: flex;
 	  justify-self: center;
@@ -147,7 +154,7 @@
 
 
 
-
+/* Grote eerste afbeelding bovenaan pagina */
 
 main section:nth-of-type(1){
     font-family: 'Sarabun', sans-serif;
@@ -170,6 +177,7 @@ main section:nth-of-type(1) p{
     margin-left: 1em;
     margin-top: .5em;
     margin-bottom: 1.5em;
+    line-height: 1.5em;
 }
 
 main section:nth-of-type(1) a{
@@ -196,7 +204,7 @@ main section:nth-of-type(1) a:active{
 
 
 
-
+/* Lijst met duimpje, sterretje en diamandje */
 
 main ul:nth-of-type(1){
     padding: 0;
@@ -225,11 +233,12 @@ main ul:nth-of-type(1) li h2 {
 main ul p{
     margin-left: 3.5em;
     margin-right: 2em;
+    line-height: 1.5em;
 }
 
 
 
-
+/* Onze fotoafdrukken en foto vergroten */
 
 main section:nth-of-type(2),
 main section:nth-of-type(3){
@@ -254,7 +263,7 @@ main section:nth-of-type(3) h2{
 
 
 
-
+/* 3 blokken (premium afdrukken 2x en retro */
 
 main ul:nth-of-type(2) {
 	position: relative;
@@ -377,7 +386,7 @@ main ul:nth-of-type(2) div p:nth-of-type(2) {
 
 
 
-
+/* foto vergroten */
 
 main section:nth-of-type(4) {
     display: grid;
@@ -476,7 +485,7 @@ main section:nth-of-type(4) div p:nth-of-type(2) {
 
 
 
-
+/* extra opties */
 
 main ul:nth-of-type(3){
     margin: 0;
@@ -535,6 +544,8 @@ main ul:nth-of-type(3) a:nth-of-type(2):active{
 
 
 
+/* img, smartphone app en maak retro foto's */
+
 main section:nth-of-type(5) div {
     display: flex;
     align-items: center;
@@ -579,7 +590,7 @@ main section:nth-of-type(5) p{
 
 
 
-
+/* prijsoverzicht */
 
 main section:nth-of-type(6){
     margin-top: 1.5em;
@@ -635,6 +646,7 @@ main ul:nth-of-type(4) li div h3{
     display: flex;
     margin-bottom: 0;
     font-size: 1em;
+    margin-left: 1.5em;
 }
 
 main ul:nth-of-type(4) li div:nth-of-type(1){
@@ -670,6 +682,7 @@ main ul:nth-of-type(4) li:nth-of-type(4){
 
 
 
+/* verzending en bezorging */
 
 section:nth-of-type(7){
     text-align: center;
@@ -720,12 +733,20 @@ section:nth-of-type(7) a:nth-child(8){
     margin-top: 1em;
 }
 
+section:nth-of-type(7) a:nth-child(8):active{
+    background-color: var(--colorbuttonsactive);
+}
+
 section:nth-of-type(7) div a{
     font-weight: 500;
 	text-decoration: underline 2px var(--colorbuttons);
 	color: var(--color-text);
 	margin-left: .4em;
     margin-right: .5em;
+}
+
+section:nth-of-type(7) div a:active{
+    text-decoration: underline 2px var(--colorbuttonsactive);
 }
 
 
@@ -735,7 +756,7 @@ section:nth-of-type(7) div a{
 
 
 
-
+/* onze klanten houden van onze foto's afdrukken */
 
 main section:nth-of-type(8)  {
 	margin-left: 1.3em;
@@ -757,6 +778,7 @@ main section:nth-of-type(8) div img {
 
 main section:nth-of-type(8) div p  {
 	font-size: 1em;
+    margin-left: .1em;
 	
 }
 
@@ -771,6 +793,10 @@ main section:nth-of-type(8) div a  {
 	text-decoration: underline;
 	color: var(--color-text);
 	margin-left: .4em;
+}
+
+main section:nth-of-type(8) div a:active  {
+	color: var(--colorbuttonsactive);
 }
 
 main hr{
@@ -853,7 +879,7 @@ main ul:nth-of-type(5) li:nth-of-type(3) p:nth-of-type(2){
 
 
 
-
+/* schrijf je in voor de nieuwsbrief */
 
 main section:nth-of-type(9)  {
 	background-color: var(--colorgrey);
@@ -994,6 +1020,13 @@ footer ul:nth-of-type(4) a {
 	color: var(--color-text);
 }
 
+footer ul:nth-of-type(1)  a:active, 
+footer ul:nth-of-type(2)  a:active, 
+footer ul:nth-of-type(3)  a:active, 
+footer ul:nth-of-type(4)  a:active {
+	color: var(--colorbuttonsactive);
+}
+
 
 footer ul:nth-of-type(5) a img{
 	width: 45%;
@@ -1029,6 +1062,10 @@ footer ul:nth-of-type(9) li{
 footer ul:nth-of-type(9) li a{
 	text-decoration: none;
 	color: var(--color-text);
+}
+
+footer ul:nth-of-type(9) li a:active{
+	color: var(--colorbuttonsactive);
 }
 	
 

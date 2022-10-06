@@ -1,19 +1,5 @@
-# Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
-
-## Jij
-
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Deze werkgroep was ik helaas ziek, waardoor ik de eerste les heb gemist. Ik heb alles op dlo doorgelezen, om op de hoogte te blijven van de lessen. Inline meekijken was helaas geen optie.</summary>
 
   ### Auteur:
   Jade van der Peet
@@ -33,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Ik vond het heel erg lastig om een site uit te kiezen, omdat alles er als een heel groot opstakel uitziet. Coderen is zeker niet mijn sterkste punt, dus ik ben voor een webiste gegaan die mij uitdaaagt, maar toch goed te doen is.</summary>
 
   ### Je opdracht:
  https://www.albelli.nl
@@ -41,9 +27,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home pagina Albelli
 
+  <img src="./readme-images/scherm1.jpg" width="200px" alt="Eerste gekozen pagina">
+  <img src="./readme-images/scherm2.jpg" width="200px" alt="Eerste gekozen pagina">
+  <img src="./readme-images/scherm3.jpg" width="200px" alt="Eerste gekozen pagina">
+  <img src="./readme-images/scherm4.jpg" width="200px" alt="Eerste gekozen pagina">
+
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ Foto's afdrukken
+
+<img src="./readme-images/scherm1.1.jpg" width="200px" alt="Tweede gekozen pagina">
+<img src="./readme-images/scherm1.2.jpg" width="200px" alt="Tweede gekozen pagina">
+<img src="./readme-images/scherm1.3.jpg" width="200px" alt="Tweede gekozen pagina">
+<img src="./readme-images/scherm1.4.jpg" width="200px" alt="Tweede gekozen pagina">
+<img src="./readme-images/scherm1.5.jpg" width="200px" alt="Tweede gekozen pagina">
+<img src="./readme-images/scherm1.6.jpg" width="200px" alt="Tweede gekozen pagina">
  
 </details>
 
@@ -121,26 +118,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Deze week had ik erg weinig motivatie om voor het eerst de html code er weer bij te pakken. Ik heb het geprobeerd en toen het niet lukte heb ik opgegeven. De student assistenten hebben toen besloten dat mijn voortgang niet goed genoeg was en mijn aanwezigheid niet telde. 
+
+ Ik vond het voor elkaar krijgen van de navigatie balk heel erg lastig en ik snapte niet hoe ik bepaalde elementen op een efficiente manier moest aanspreken. Ik heb vorig jaar alleen maar met classes gewerkt en dit jaar kon dat niet. Ik moest dus een soort van opnieuw code leren typen.
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Dit hebben wij in de eerste week dus helaas niet gedaan. Kyara en ik waren wel aanwezig, maar hebben hier verder niet samen aan gewerkt. Silke en Suneyska waren niet aanwezig.
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  hier na afloop snel de uitkomsten van de meeting vastleggen:
+  - Er is mij heel goed uitgelegd hoe ik elementen op een goede manier moet aanspreken, waardoor het ook nog eens overzichtelijk blijft.
+  - Ik heb help gekregen met het aan de praat krijgen van mij hamburger menu, maar dat is nog niet helemaal gelukt.
 
 </details>
 
@@ -154,7 +143,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het is mij nog steeds niet gelukt om de navigatie werkende te krijgen, hier wil ik graag hulp bij. Soms schalen de letters niet mee en ik moet weer even een opfrissing hebben van flexbox en padding.
 
 
   ### Agenda voor meeting
@@ -171,10 +160,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Inline elementen staan naast elkaar, block elementen niet
+  - Navigatie sticky maken door: position sticky, top 0 en z-index 100 (om de voorste plaats in te nemen)
+  - Order -1 is 1 omhoog, in de min is naar boven
+  - Display grid is onder elkaar 
+
 
 </details>
 
@@ -187,31 +177,53 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Screenreader:
+  Gaat prima!
+  Kopjes zijn goed
+  Benaming van linkjes wel nog even aanpassen
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  kleurenblind in chrome:
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Geblurd:
+  Button navigatie is niet zo duidelijk meer
+
+  Groen:
+  Alles goed zichtbaar
+
+  Geel
+  Alles goed zichtbaar
+
+  Roze:
+  Heel duidelijk en fel
+
+  Zwart/wit:
+  Header en plaatjes overgang is minder duidelijk niet te zien waar de navigatie stopt als hij uitgeklapt is.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Elastiekjes:
+  Alles goed te doen
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ballon:
+  Gaat ook prima!
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Brillen
+
+Geblurd:
+Button is lastig te lezen
+
+Zicht verlies:
+Plaatjes zijn heel druk opeens omdat ze dicht op elkaar zitten. Kleur van buttons moeilijk te zien. De kleine plaatjes zijn zo klein dat er twee in 1 keer te zien zijn
+
+Laag contrast
+Button niet te lezen. Icoontjes ook niet, door de lichte kleur
+
 
 </details>
 
@@ -225,7 +237,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  Ik vind het heel erg last
+  Ik vind het heel erg last om mijn grid mooi te krijgen. Sommige elementen in een section of ul moeten naast elkaar komen en andere juiste weer onder elkaar. Verder gaat het prima en loop ik er lekker doorheen.
 
 
   ### Agenda voor meeting
@@ -241,10 +253,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Er mogen meerdere p's gebruikt worden in een section
+  - Ik mag een div gebruiken voor positionering en styling
+  - In css overal main voor zetten, hetzelfde met de footer en header
 
 </details>
 
@@ -258,19 +269,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/helepagina1.png" width="375px" alt="uitkomst opdracht 1">
+
+  <img src="readme-images/helepagina2.png" width="375px" alt="uitkomst opdracht 2">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+Wat ik heb geleerd met dit vak is te veel om op te noemen. Ik ben ook onwijs trots op wat ik heb neergezet, als ik mijzelf vergelijk met vorig jaar. Ik begrijp eindelijk mijn eigen code. De ondersteuning tijdens dit vak door docent en student assistent was erg fijn en ook dat heeft erg geholpen.
+Ik heb geleerd hoe je elementen naast elkaar kan krijgen, onder elkaar of juist 1 element ergens onder.
+Buttons maak je niet altijd aan als een button, maar je maakt een link en geeft die vorm als een button.
+Alles wat ik heb geleerd tijdens dit vak ga ik zeker meenemen naar volgende jaren op school en daarbuiten. 
+De docent vorig jaar heeft mij o slecht geholpen dat ik het gevoel had dat ik vanaf 0 weer code moest leren typen. Dit is door de goede ondersteuning onwijs snel gegaan. Erg bedankt!
+  
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Sommige dingen zijn gewoon te moeilijk, om zelf over na te denken. Ik heb hulp bij Sanne gevraagd omdat het mij niet lukte een stuk tekst rechts op de pagina te krijgen en hij moest ook nog eens niet meeschalen. Dit is gelukt en ik begrijp ook bijna volledig wat het probleem precies was.
+  Ik heb vaker een div gebruikt in mijn code, omdat de student assistenten ook geen andere oplossing wisten. Verder is alles mij gelukt en ben ik er goed ingerold.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -282,10 +299,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Sanne 't Hooft, css regel 227 tm 292, positioneren
+  2. Hr line, https://www.w3schools.com/tags/tag_hr.asp 
+  3. Flexbox en forms. Dlo jaar 21-22, internetstandaarden, https://www.internetingishard.com/html-and-css/
+  4. Header en nav, Russell Numo (Student assistent) html regel 28 tm 44
+  5. Positioneren van grid elementen, Yara Prins (Student assistent) regel html 117 tm 202
 
 </details>

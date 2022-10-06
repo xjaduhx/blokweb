@@ -108,10 +108,19 @@ body {
 	  display: block;
 	  padding: 1em;
   }
+
+  header nav a:hover{
+	color: var(--colorbuttonsactive);
+}
+
+header nav a:active{
+	color: var(--colorbuttonsactive);
+}
   
   
   
   
+  /*Russell heeft mij geholpen met het positioneren van de header icons */
   header section:nth-of-type(1){
 	  display: flex;
 	  align-items: center;
@@ -120,7 +129,7 @@ body {
 	  padding: 1em;
   }
   
-  header section img:nth-child(2){
+  header section a img{
 	  width: 5em;
 	  display: flex;
 	  justify-self: center;
@@ -152,7 +161,7 @@ body {
 
 
 
-
+/* Hou dat vakantie gevoel vast */
 
 main section:first-child {
 	text-align: center;
@@ -192,7 +201,7 @@ main section:first-child a:active {
 
 
 
-
+/* Iconen garantie, klantenservice en tevreden klanten */
 
 main ul:nth-of-type(1) li {
 	display: flex;
@@ -224,7 +233,8 @@ main ul:nth-of-type(1) li h2 {
 
 
 
-/* Regel 290 t/m 339 Sanne 't Hooft mij mee geholpen */
+/* Regel 227 t/m 292 Sanne 't Hooft mij mee geholpen.
+Gaat om de twee plaatjes met groot 20% erop. */
 main ul:nth-of-type(2) {
 	padding: 0;
 }
@@ -296,7 +306,7 @@ main ul:nth-of-type(2) li a:active{
 
 
 
-
+/* Smart assisitant */
 
 main section:nth-of-type(2) img {
 	width: 100%;
@@ -348,7 +358,8 @@ main section:nth-of-type(2) a:nth-of-type(2):active{
 
 
 
-
+/*Yara Prins heeft een deel van deze css geschreven, de echte vormgeving heb ik gedaan. 
+Ik snap wat zij heeft gedaan. Gaat over de 6 blokken. */
 
 main ul:nth-of-type(3) {
 	position: relative;
@@ -391,7 +402,6 @@ main ul:nth-of-type(3) li h3 {
 }
 
 main ul:nth-of-type(3) li h4,
-main ul:nth-of-type(3) li h5,
 main ul:nth-of-type(3) li p {
 	font-size: 1.3em;
 	margin-left: .3em;
@@ -448,7 +458,7 @@ main ul:nth-of-type(3) div p:nth-of-type(2) {
 
 
 
-
+/* Carousel */
 
 main ul:nth-of-type(4) {
 	list-style: none;
@@ -509,7 +519,7 @@ main ul:nth-of-type(4) li:nth-of-type(3) p:nth-of-type(2){
 
 
 
-
+/* Waaromm mensen van albelli houden */
 
 main section:nth-of-type(3)  {
 	margin-left: 1.3em;
@@ -547,6 +557,10 @@ main section:nth-of-type(3) div a  {
 	margin-left: .4em;
 }
 
+main section:nth-of-type(3) div a:active  {
+	color: var(--colorbuttonsactive);
+}
+
 main hr{
 	color: var(--colorhr);
 	background-color: var(--colorhr);
@@ -576,7 +590,7 @@ main hr{
 
 
 
-
+/* Form inschrijven */
 
 main section:nth-of-type(4)  {
 	background-color: var(--colorgrey);
@@ -700,6 +714,23 @@ footer ul:nth-of-type(8) li {
 	margin-bottom: .8em;
 }
 
+footer ul:nth-of-type(1) li, 
+footer ul:nth-of-type(2) li, 
+footer ul:nth-of-type(3) li, 
+footer ul:nth-of-type(4) li, 
+footer ul:nth-of-type(5) li, 
+footer ul:nth-of-type(6) li, 
+footer ul:nth-of-type(7) li, 
+footer ul:nth-of-type(8) li {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	list-style: none;
+	align-items: flex-start;
+	padding-inline-start: 2em;
+	margin-bottom: .8em;
+}
+
 footer ul:nth-of-type(1) a, 
 footer ul:nth-of-type(2) a, 
 footer ul:nth-of-type(3) a, 
@@ -712,6 +743,12 @@ footer ul:nth-of-type(4) a {
 	color: var(--color-text);
 }
 
+footer ul:nth-of-type(1)  a:active, 
+footer ul:nth-of-type(2)  a:active, 
+footer ul:nth-of-type(3)  a:active, 
+footer ul:nth-of-type(4)  a:active {
+	color: var(--colorbuttonsactive);
+}
 
 footer ul:nth-of-type(5) a img{
 	width: 45%;
@@ -748,8 +785,11 @@ footer ul:nth-of-type(9) li a{
 	text-decoration: none;
 	color: var(--color-text);
 }
-	
 
+footer ul:nth-of-type(9) li a:active{
+	color: var(--colorbuttonsactive);
+}
+	
 footer ul:nth-of-type(9) li a img{
 	width: 20%;
 }
