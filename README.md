@@ -28,19 +28,19 @@
   Home pagina Albelli
 
   <img src="./readme-images/scherm1.jpg" width="200px" alt="Eerste gekozen pagina">
-  <img src="./readme-images/scherm2.jpg" width="200px" alt="Eerste gekozen pagina">
-  <img src="./readme-images/scherm3.jpg" width="200px" alt="Eerste gekozen pagina">
-  <img src="./readme-images/scherm4.jpg" width="200px" alt="Eerste gekozen pagina">
+  <img src="./readme-images/Scherm2.jpg" width="200px" alt="Eerste gekozen pagina">
+  <img src="./readme-images/Scherm3.jpg" width="200px" alt="Eerste gekozen pagina">
+  <img src="./readme-images/Scherm4.jpg" width="200px" alt="Eerste gekozen pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
  Foto's afdrukken
 
-<img src="./readme-images/scherm1.1.jpg" width="200px" alt="Tweede gekozen pagina">
-<img src="./readme-images/scherm1.2.jpg" width="200px" alt="Tweede gekozen pagina">
-<img src="./readme-images/scherm1.3.jpg" width="200px" alt="Tweede gekozen pagina">
-<img src="./readme-images/scherm1.4.jpg" width="200px" alt="Tweede gekozen pagina">
-<img src="./readme-images/scherm1.5.jpg" width="200px" alt="Tweede gekozen pagina">
-<img src="./readme-images/scherm1.6.jpg" width="200px" alt="Tweede gekozen pagina">
+<img src="./readme-images/scherm1.1.png" width="200px" alt="Tweede gekozen pagina">
+<img src="./readme-images/scherm1.2.png" width="200px" alt="Tweede gekozen pagina">
+<img src="./readme-images/scherm1.3.png" width="200px" alt="Tweede gekozen pagina">
+<img src="./readme-images/scherm1.4.png" width="200px" alt="Tweede gekozen pagina">
+<img src="./readme-images/scherm1.5.png" width="200px" alt="Tweede gekozen pagina">
+<img src="./readme-images/scherm1.6.png" width="200px" alt="Tweede gekozen pagina">
  
 </details>
 
